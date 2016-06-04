@@ -36,8 +36,8 @@ You can continue the game by typing your choice of action (in integer number). F
 You can edit the main function in MySimulator.py to hook up with your own agent and RL framework. The interface of all three text games are designed so that they share the same interface:
 ```
 (text, actions, reward) = mySimulator.Read() # text is a string (state-text), actions is a list of strings, reward is a float
-mySimulator.Act(playerInput) # playerInput is an integer or a string, depending on which game
-mySimulator.Restart() # after the episode ends, restart the game
+mySimulator.Act(playerInput)                 # playerInput is an integer or a string, depending on which game
+mySimulator.Restart()                        # after the episode ends, restart the game
 ```
 
 ### References

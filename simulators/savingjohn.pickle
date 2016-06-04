@@ -1,0 +1,1567 @@
+((dp1
+S'Adam6'
+p2
+(i__main__
+StoryNode
+p3
+(dp4
+S'text'
+p5
+S'It doesn\'t occur to me to ask where we are going until I could no \\nlonger see my house.\\n\\n"Oh my god it\'s one in the morning?" I\'m still grumbling.\\n"One? What planet are you living on. It\'s like three yo," \\n"Shit, did I really forget my phone?"\\n\\nWe\'re on the highway now.\\n\\n"I\'m not going back sorry,"\\n"Where are we going?"\\n"Dunno, stop being a little bitch."\\n\\nI do feel a little guilty for whining.\\n\\n'
+p6
+sS'links'
+p7
+(lp8
+S'Sam5'
+p9
+aS'Cherie9'
+p10
+aS'Lucretia1'
+p11
+asS'actions'
+p12
+(lp13
+S"Suggest stopping by Sam's"
+p14
+aS"Suggest stopping by Cherie's"
+p15
+aS'Move on to another memory'
+p16
+asbsS'Adam7'
+p17
+(i__main__
+StoryNode
+p18
+(dp19
+g5
+S'What does she want now? It seems like all the broad ever does \\nlately is cry. For instance, the day before we were supposed to \\ngo to the beach.\\n\\n"I don\'t understand why you get like that,"\\n\\nShe tries to reach for my hand.\\n\\n"Hmmm?" Shoot, I need more mana.\\n\\n"Can you pause that for a second?"\\n\\nShe gently brushes her finges upon the red scars on my \\nknuckles. The anger starts to grow and swell inside me.\\n\\nI have no life left. The battle\'s over.\\n\\n"Dammit!" The keyboard hits the wall, and the letter \'R\' pops \\noff.\\n\\nShe\'s chewing on her lower lip so hard, there\'s a little blood.\\n\\n"Bitch, don\'t even start,"\\n\\n"I\'m not even going to -- " She takes a deep breath. "I feel \\nlike I don\'t even know you sometimes. Like you have all these \\ndifferent personalities and--"\\n\\nThere is blood everywhere and it\'s pissing me off. The pounding \\ngets louder.\\n\\n'
+p20
+sg7
+(lp21
+S'Adam8'
+p22
+aS'Cherie5'
+p23
+asg12
+(lp24
+S'Focus on the anger'
+p25
+aS'Let it go'
+p26
+asbsS'Adam4'
+p27
+(i__main__
+StoryNode
+p28
+(dp29
+g5
+S'"Chill out, ok? Don\'t look so defensive; I apologize."\\n"You betta."\\nI roll my eyes.\\n"Whatever, you\'re lame, I\'m out," with that, Adam leaves almost \\nas suddenly as he appeared.\\n\\n'
+p30
+sg7
+(lp31
+S'Lucretia1'
+p32
+aS'Sam1'
+p33
+asg12
+(lp34
+S'Focus on the yellow headlights passing by. '
+p35
+aS'Focus on the orange streetlights through the blinds.'
+p36
+asbsS'Adam5'
+p37
+(i__main__
+StoryNode
+p38
+(dp39
+g5
+S'"She couldn\'t even save herself if she tried." I  remember Adam \\ntelling me. "Like the time we were on that project together," \\n\\nHe never could let that go.\\n\\n"Are you repeating yourself again?"\\n\\nHe ignores me.\\n\\n"Bitch is neuro-psycho man, I dunno what you see in her. Honest \\nto God, people really shouldn\'t work when they\'re sick. And she\'s \\none sick pussy!"\\n\\n'
+p40
+sg7
+(lp41
+S'Cherie8'
+p42
+aS'Unsure'
+p43
+aS'Lucretia1'
+p44
+asg12
+(lp45
+S'Tell Adam to back off'
+p46
+aS'Keep silent'
+p47
+aS'Remember something else'
+p48
+asbsS'Adam2'
+p49
+(i__main__
+StoryNode
+p50
+(dp51
+g5
+S"Who knows who the heck AlphaQ143 is. And who adds a person \\nwithout giving them a heads up? Freakin' stupid. The thought of \\ngetting a virus and having to reformat my computer makes me all \\nthe more pissed. And tired. \\n\\nI reject the invitation and crash into the covers.\\n\\nSuddenly, the pillow starts to vibrate. How did my phone get \\nunder there? Groggily, I see it is a message from Cherie. \\n\\n"
+p52
+sg7
+(lp53
+S'Cherie10.1'
+p54
+aS'Lucretia1alt'
+p55
+aS'Adam7'
+p56
+asg12
+(lp57
+S'Check the message'
+p58
+aS'Delete it'
+p59
+aS'Ignore it'
+p60
+asbsS'Adam1'
+p61
+(i__main__
+StoryNode
+p62
+(dp63
+g5
+S'"Save me? She couldn\'t even save herself if she tried." \\nI remember Adam telling me. \\n"Like the time we were on that project together," \\n\\nHe never could let that go.\\n\\n"Bitch is neuro-psycho man, I dunno what you see in her. Honest \\nto God, people really shouldn\'t work when they\'re sick. And \\nCherie\'s one sick pussy!"\\n\\nAdam\'s always known how to push my buttons. As I focus on the \\nmemories of Adam, I could feel myself stiffening up.\\n\\n'
+p64
+sg7
+(lp65
+S'Adam1.2'
+p66
+aS'Sam1'
+p67
+aS'Lucretia1'
+p68
+asg12
+(lp69
+S'Keep thinking about Adam'
+p70
+aS'Forget about Adam'
+p71
+aS'Focus on another memory'
+p72
+asbsS'Cherie1'
+p73
+(i__main__
+StoryNode
+p74
+(dp75
+g5
+S"It's not Cherie's fault I fell in love with her.\\n\\nThe scent from her hair reminded me of vanilla bonbons from when \\nI was a child, walking home from school in my old neighborhood \\nand passing by the only bake shop in the area, the one with a \\nblue and white awning.\\n\\n"
+p76
+sg7
+(lp77
+S'Cherie2'
+p78
+aS'Lucretia1'
+p79
+asg12
+(lp80
+S'Focus on the feeling'
+p81
+aS'Think of something else'
+p82
+asbsS'Lucretia4'
+p83
+(i__main__
+StoryNode
+p84
+(dp85
+g5
+S'"I\'m out," I can barely look at Adam but I force a smile.\\n"Is this about the text I sent?"\\n"What?"\\n"That text, you know, when you were at the club or whatever. And you met that chick. You know, you should thank me,"\\n"Thank? Actually, whatever. I\'m going back to bed,"\\n"Yea thank me! Who knows what would have happened to you,"\\n"Goodnight,"\\n"Wait --"\\n\\n\\n'
+p86
+sg7
+(lp87
+S'Sam6'
+p88
+aS'Adam6'
+p89
+aS'Lucretia1'
+p90
+asg12
+(lp91
+S'Go to bed'
+p92
+aS'Wait for Adam'
+p93
+aS'Remember the club'
+p94
+asbsS'Sam4.1'
+p95
+(i__main__
+StoryNode
+p96
+(dp97
+g5
+S'I can\'t stand the sight of blood. \\nAdam is more than capable of taking care of himself.\\n\\n"Coward!" Is the last thing I hear before the door slams shut. He\'s kidding, \\nbut that doesn\'t make it sting any less. Shutting down as a defensive mechanism \\nis something Cherie always accused me of.\\n\\nSeeking refuge in my covers, I start to drift.\\n\\n'
+p98
+sg7
+(lp99
+S'Sam10'
+p100
+aS'Lucretia3'
+p101
+asg12
+(lp102
+S'Delve deeper'
+p103
+aS'Focus on something else'
+p104
+asbsS'Adam8'
+p105
+(i__main__
+StoryNode
+p106
+(dp107
+g5
+S'The pounding engulfs me and now we are one.\\n\\n"I remember what I saw!"\\n"What are you talking about?"\\n"You can\'t even save yourself,"\\n"I never said I was trying to change you,"\\n\\nHer eyes are bloodshot. It\'s too late.\\n\\n"I thought you said you two had broken up,"\\n"Broken up? Who? Us? Wait, I\'m not following,"\\n"That\'s surprising." \\n\\nI snorted.\\n\\n"What\'s that supposed to mean? John?"\\nBitch is pretending to be confused.\\n"Yea, John. It\'s always fuckin\' been about John. You aren\'t over \\nhim are you?"\\n\\nA piece of hair falls into her eyes.\\n\\n'
+p108
+sg7
+(lp109
+S'Ending1'
+p110
+aS'UnsureEnd'
+p111
+asg12
+(lp112
+S'Brush it away.'
+p113
+aS'Look away.'
+p114
+asbsS'Adam9'
+p115
+(i__main__
+StoryNode
+p116
+(dp117
+g5
+S' After pressing delete, a throbbing pain draws my eyes to the \\nblood on my knuckles. How did that get there? \\n\\n'
+p118
+sg7
+(lp119
+S'Adam1.5'
+p120
+aS'Child4'
+p121
+asg12
+(lp122
+S'Wipe it up'
+p123
+aS'Ignore the pain'
+p124
+asbsS'Start'
+p125
+(i__main__
+StoryNode
+p126
+(dp127
+g5
+S"It\xe2\x80\x99s difficult to breathe.\\n\\n\t// My psychiatrist says that in order to be saved, one must want to be saved.//\\n\\n\xe2\x80\x9cAre you alright?\xe2\x80\x9d Cherie calls from the deck.\\n\\nThe waves don't give me a chance to respond. Instinctively, \\nmy eyes turn upward as I'm being pulled under.\\n\\n// Please, not yet.//\\n\\n\xe2\x80\x9cJohn!\xe2\x80\x9d \\n\\n// I want a second chance.//\\n\\nIt\xe2\x80\x99s Cherie\xe2\x80\x99s hand, reaching out, but for some reason it slips \\naway. My mind's going in circles and I need to focus on \\nsomething, anything. I grab on to the first thought that \\nseems coherent:\\n\\n"
+p128
+sg7
+(lp129
+S'Adam1'
+p130
+aS'Lucretia1'
+p131
+aS'Sam1'
+p132
+aS'Cherie1'
+p133
+asg12
+(lp134
+S"She can't save me."
+p135
+aS'She\xe2\x80\x99s trying to kill me!'
+p136
+aS'I don\xe2\x80\x99t deserve to live.'
+p137
+aS"It's not her fault."
+p138
+asbsS'CherieEnd'
+p139
+(i__main__
+StoryNode
+p140
+(dp141
+g5
+S"\\n\\n\\n\\n\\n\\n\\n\\n\\n It's Cherie.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"
+p142
+sg7
+(lp143
+S'TheEnd2'
+p144
+asg12
+(lp145
+S'Hold On'
+p146
+asbsS'Cherie10'
+p147
+(i__main__
+StoryNode
+p148
+(dp149
+g5
+S'Her smile really does light up a room, objectively speaking. \\nTowards the end, no matter how hard I tried, it became \\nincreasingly harder to catch a glimpse of it. Probably didn\'t help \\nthat Adam didn\'t like her, Sam confessed his love for her, and my \\nthing with Lucretia wasn\'t figured out yet.\\n\\nIt was during this cluster she reached out to me, perhaps for the last time.\\n\\n---\\n\\n \'\'Cherie:\'\'  Can\'t do this anymore. Need to talk.\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\t\\n\t\t\t\t\\n---\\n\\nSweat drips down my palms, as I\'m scared of how it might end.\\n\\n'
+p150
+sg7
+(lp151
+S'Cherie6'
+p152
+aS'UnsureEnd'
+p153
+asg12
+(lp154
+S'Reply to Cherie'
+p155
+aS'Delete'
+p156
+asbsS'Lucretia12'
+p157
+(i__main__
+StoryNode
+p158
+(dp159
+g5
+S'---\\n\\n\\n\\n\'\'Me:\'\' Sure\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\'\'Me:\'\' I\'ll text you when I get home.\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\\n---\\n\\n'
+p160
+sg7
+(lp161
+S'Lucretia9'
+p162
+asg12
+(lp163
+S'Continue'
+p164
+asbsS'LucretiaEnd'
+p165
+(i__main__
+StoryNode
+p166
+(dp167
+g5
+S"\\n\\n\\n\\n\\n\\n\\n\\n\\n It's Lucretia.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"
+p168
+sg7
+(lp169
+S'TheEnd1'
+p170
+asg12
+(lp171
+S'Hold On'
+p172
+asbsS'Lucretia10'
+p173
+(i__main__
+StoryNode
+p174
+(dp175
+g5
+S'I hesitate. But I can\'t say no.\\n\\nWe hop into my car. When my hands touch the wheel, I feel free. I accelerate; Lucretia giggles. She turns up the music.\\n\\n//Save me from this prison\\nLord, help me to get away\\n\'Cause only you can save me now\\nFrom this misery...//\\n\\nThe faster I went, the louder the music. I haven\'t felt this \\nexhilirated in a long time.\\n\\n//I\'ve been locked up way too long in this crazy world\\nHow far is Heaven?//\\n\\nThere\'s a flash of yellow.\\n"She\'s no good for you,"\\nLucretia\'s laugh.\\n"Hmmm?"\\n"I can give you what she can\'t,"\\nMore spots of brighter yellows. \\nLucretia throws her head back and laughs, her hair covering her face.\\n"She\'s killing you,"\\nThere are scars on her knuckles.\\n"Oh?"\\n"Yeah, let it go."\\nNo blues.\\n\\nSometimes I think Lucretia and I are one.\\n\\n'
+p176
+sg7
+(lp177
+S'Ending1'
+p178
+aS'Cherie4'
+p179
+asg12
+(lp180
+S'Let Cherie go'
+p181
+aS'Remember the day you met Cherie'
+p182
+asbsS'Lucretia11'
+p183
+(i__main__
+StoryNode
+p184
+(dp185
+g5
+S'"I don\'t think that\'s a good idea..."\\n\\nShe narrows her eyes and inches towards me.\\n\\n"It\'s her isn\'t it," she sneers. Before I know it, she has my \\nkeys and is in my car. I race after her and barely hop into the \\npassenger\'s seat in time.\\n\\nI\'m scared for my life.\\n\\nThe faster we went, the louder the pounding in my heart.\\n\\n"Why are you doing this?"\\n\\nShe laughs louder.\\n\\n"If I can\'t have you, no one can!"\\n\\n"Lucretia!"\\n\\n"She\'s ruining everything!"\\n\\nThere\'s a flash of yellow.\\n\\n"Look out!"\\n\\n'
+p186
+sg7
+(lp187
+S'UnsureEnd'
+p188
+aS'Lucretia7'
+p189
+asg12
+(lp190
+S'Cover my face in fear.'
+p191
+aS'Face Lucretia.'
+p192
+asbsS'Sam3.5'
+p193
+(i__main__
+StoryNode
+p194
+(dp195
+g5
+S'Buried deep are the constant feelings of guilt. Guilt from hating \\nmy Grandpa, the local hero and neighborhood bowling champion of \\nthe Monday night beer and pizza league, who attended Church every \\nSunday.\\n\\n"He never missed a day with God," Mom used to say before sending \\nme off for my daily delivery to his house. "Honest to God, he \\ndidn\'t. Now off you go." \\n\\nHonest to God was a phrase Mom repeated often, during my childhood.\\n\\n'
+p196
+sg7
+(lp197
+S'Child4'
+p198
+aS'Adam1'
+p199
+aS'Sam7'
+p200
+asg12
+(lp201
+S'Focus on this memory'
+p202
+aS'Move on to something else'
+p203
+aS'Think about Sam'
+p204
+asbsS'passageStart'
+p205
+(i__main__
+StoryNode
+p206
+(dp207
+g5
+S'It\'s difficult to breathe.     My psychiatrist says that in order to be saved, one must want to be saved. "Are you alright?" Cherie calls from the deck. The waves don\'t give me a chance to respond. Instinctively,  my eyes turn upward as I\'m being pulled under. Please, not yet. "John!"  I want a second chance. It\'s Cherie\'s hand, reaching out, but for some reason it slips  away. My mind\'s going in circles and I need to focus on  something, anything. I grab on to the first thought that  seems coherent:'
+p208
+sg7
+(lp209
+S'Adam1'
+p210
+aS'Lucretia1'
+p211
+aS'Sam1'
+p212
+aS'Cherie1'
+p213
+asg12
+(lp214
+S"She can't save me."
+p215
+aS"She's trying to kill me!"
+p216
+aS"I don't deserve to live."
+p217
+aS"It's not her fault."
+p218
+asbsS'Child1'
+p219
+(i__main__
+StoryNode
+p220
+(dp221
+g5
+S'//The first time I met Larry was when I came home crying. My \\nmother asked, "John, what\'s wrong?" But I couldn\'t articulate it.\\n\\nSo she gave me some vanilla bonbons and told me she loved me. \\nThen she left for work.\\n\\nAs I was munching on the candies, trying to sort through the \\nevents from the day, Larry appeared. \\n\\nHe looked like Santa Claus, with even kinder eyes. \\n\\n"Don\'t worry son," he said.\\n\\n"Are you a genie?" My eyes widened.\\n\\n"No, I\'m not," he laughed. Then winked. "But close!"\\n\\nFor some reason, at that moment, I felt that everything would \\nbe okay.//\\n\\n'
+p222
+sg7
+(lp223
+S'Cherie3'
+p224
+aS'Child3'
+p225
+asg12
+(lp226
+S'Believe that everything will be okay'
+p227
+aS'Hold on to the memory of Larry'
+p228
+asbsS'Child2'
+p229
+(i__main__
+StoryNode
+p230
+(dp231
+g5
+S"//My mother used to bake cookies and have me take them to \\nmy grandfather.\\n\\nHe lived three blocks away. I loved my grandfather but I \\ndreaded those walks.\\n\\nI hated the red steps with chipped paint leading up to his house.\\n\\nI hated the metal screen door.\\n\\nThe yellow wallpaper and sound of faint music.\\n\\nThe hint of orange from the soap he uses on his hands.\\n\\nThose minutes with my grandfather seemed like hours.\\n\\nThen I'd be back on the steps, in pain. It seemed to always end \\nthe same way, with me looking at the blue sky, dried tears on \\nmy cheeks. \\n\\nThis is not a memory I wanted to keep, but in order to get \\nbetter, I have to hold on to some part of it, even if it is \\njust a color.\\n\\n"
+p232
+sg7
+(lp233
+S'Adam1'
+p234
+aS'Lucretia1'
+p235
+aS'Sam1'
+p236
+aS'Unsure'
+p237
+asg12
+(lp238
+S'Hold on to the red'
+p239
+aS'Hold on to the yellow'
+p240
+aS'Hold on to the orange'
+p241
+aS'Forget it all'
+p242
+asbsS'Child3'
+p243
+(i__main__
+StoryNode
+p244
+(dp245
+g5
+S"//My mother took me to a child psycologist because she didn't \\nbelieve children should have an imagination. I remember making up \\nLarry after learning about Santa Claus. I knew he wasn't real; I \\nguess some people just don't believe in the power of good \\nstories. I know it isn't fair, but I feel like she betrayed me. \\nOn some level, almost as much as my Grandpa for the abuse and my \\ndad for leaving.//\\n\\nI'm not sure how talking about this is making me better.\\n\\n"
+p246
+sg7
+(lp247
+S'Unsure'
+p248
+aS'Child4'
+p249
+asg12
+(lp250
+S"I'm having trouble remembering"
+p251
+aS'Delve deeper'
+p252
+asbsS'Child4'
+p253
+(i__main__
+StoryNode
+p254
+(dp255
+g5
+S"//My dad left before I could remember. My mom worked all the time \\nbut she had to take care of her father, my grandpa. The routine \\nwas that she had an hour between her morning shift and afternoon \\nshift, where she'd make food for me to bring to pops.\\n\\nHe lived three blocks away, in a house with red steps leading up \\nto the metal front door. Inside, the stained yellow wallpaper and \\nrotten oranges reeked of mold.\\n\\nI'd walk by myself to my grandfather's and back. It was lonely \\nsometimes, being a kid and all, but it was nothing I couldn't \\ndeal with. It's not like he abused me, I mean it hurt but why \\nwouldn't I fight back?    \\n\\nI met Adam on one of these walks. He made me feel stronger, like \\nI can face anything.//\\n\\n"
+p256
+sg7
+(lp257
+S'Cherie7'
+p258
+aS'Sam4'
+p259
+aS'Unsure'
+p260
+asg12
+(lp261
+S'Face Cherie'
+p262
+aS"Why didn't I fight back?"
+p263
+aS'Repress this memory'
+p264
+asbsS'AdamEnd'
+p265
+(i__main__
+StoryNode
+p266
+(dp267
+g5
+S"\\n\\n\\n\\n\\n\\n\\n\\n\\n It's Adam.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"
+p268
+sg7
+(lp269
+S'TheEnd3'
+p270
+asg12
+(lp271
+S'Hold On'
+p272
+asbsS'Sam12'
+p273
+(i__main__
+StoryNode
+p274
+(dp275
+g5
+S'"Hey,"\\n"Hi, what\'s up?"\\n"I can\'t make it to dinner tonight,"\\n"You can\'t? But the reservations were made weeks ago."\\n"I know, I\'m sorry."\\n"That really sucks."\\n"It\'s a friend,"\\n"Ryan?"\\n"No,"\\n"Who?"\\n\\nI didn\'t like lying to Cherie, but Sam can be so weird about these\\nthings. He seems always on the verge of a mental breakdown.\\n\\n"A friend."\\n"Okay..."\\n"I\'ll make it up to ya okay?"\\n"Sigh."\\n"I promise,"\\n"Alright, you know I can\'t stay mad at you."\\nI could hear her smile. \\n"Have fun!"\\n\\n\\nI can\'t even remember what Sam needed me for. Except that it\\nwas urgent. And it took time away from being with Cherie.\\n\\n'
+p276
+sg7
+(lp277
+S'Sam7'
+p278
+aS'Adam1.2'
+p279
+aS'Cherie1'
+p280
+asg12
+(lp281
+S'Try to remember'
+p282
+aS'Think of something else'
+p283
+aS'Think about Cherie'
+p284
+asbsS'Sam11'
+p285
+(i__main__
+StoryNode
+p286
+(dp287
+g5
+S'There are some things I\'d like to forget.\\n\\nBlame it on Grandpa, who was the neighborhood bowling champion of \\nthe Monday night beer and pizza league. An unpleasant side \\ndefinitely came out that night I went bowling with Sam, most \\nlikely triggered by fond memories of good ol\' Gramps. Good ol\' \\ntouchy-feely Gramps, may he rest in whatever hell he dug.\\n\\nI shouldn\'t talk about him this way.\\n\\n"He never missed a day with God," Mom used to say before sending \\nme off for my daily delivery to Grandpa\'s house. "Honest to God, \\nhe didn\'t. Now off you go."\\n\\nHonest to God was a phrase Mom repeated often, during my childhood.\\n\\n'
+p288
+sg7
+(lp289
+S'Child4'
+p290
+aS'Adam1'
+p291
+aS'Sam7'
+p292
+asg12
+(lp293
+S'Focus on this memory'
+p294
+aS'Move on to something else'
+p295
+aS'Think about Sam'
+p296
+asbsS'Sam10'
+p297
+(i__main__
+StoryNode
+p298
+(dp299
+g5
+S'"Hello?"\\n"Hey Cher."\\n"Hey..."\\n"You okay?"\\n"Hmm? Yeah I guess,"\\n"You sure?"\\n"We need to talk,"\\n"About?"\\n"John--"\\n"Why do we have to talk about John? I feel guilty enough as it is,"\\n"I\'m not sure I follow,"\\n"It\'s fine, my knuckles have been bothering me so I\'m a little cranky,"\\n"What happened?"\\n"Not sure actually," \\n"Does it hurt?"\\n"It\'s bleeding a little."\\n"Didn\'t you hurt your hand last week? If it\'s the same wound you should go see a doctor."\\n"Last week I bowled a 700. There\'s no way my hand was hurt."\\nA pause.\\n"Sometimes I seriously think you have multiple personality disorder," She\'s barely audible. \\n\\nI tug at my orange shirt.\\n\\n"I want to see you,"\\n\\nAnother pause. It feels like an enternity before she responds.\\n\\n"Okay..."\\n"Great! How about the beach?"\\n"Sure..."\\n"Meet you there in a few minutes. I\'m going to catch the bus. Don\'t bring him though."\\n"Who?"\\n"John,"\\n\\nI quickly hang up before she can change her mind, and before my \\nguilt can convince me otherwise.\\n\\n'
+p300
+sg7
+(lp301
+S'Ending1'
+p302
+aS'Unsure'
+p303
+asg12
+(lp304
+S'Check myself out in the mirror.'
+p305
+aS'Shake the feeling of guilt.'
+p306
+asbsS'Sam1.5'
+p307
+(i__main__
+StoryNode
+p308
+(dp309
+g5
+S" \\nTwo weeks later, a message pops up on my computer: AlphaQ143 has \\nadded me as a friend. Do I accept?\\n\\n Cherie always chided me for being too trusting with these kinds \\nof things. But her buddylist is so long and I only have a few. It \\nshouldn't hurt to add some more.\\n\\n  Knowing Adam, he'd reject the invitation just for the \\nhell of it. Especially if he wasn't sure who it was.\\n\\n  I'm pretty sure it was Sam but had my doubts. \\n\t\\n"
+p310
+sg7
+(lp311
+S'Sam2'
+p312
+aS'Adam2'
+p313
+aS'Lucretia1'
+p314
+asg12
+(lp315
+S'Accept the request'
+p316
+aS'Reject the request'
+p317
+aS'Ignore the request'
+p318
+asbsS'Adam1.2'
+p319
+(i__main__
+StoryNode
+p320
+(dp321
+g5
+S'//"Open up!"//\\n\\nKnock. I jolt awake.\\n\\n//"Yo, OPEN UP!"//\\n\\nKnock, knock, then mixed laughter. \\n\\n//"Hey maybe if you hit this,"//\\n//"Does anyone know how to pick a lock?"//\\n//"Honest to GOD, OPEN UP!"//\\n\\nThat\'s definitely Adam. I could recognize that claim of honesty to God anywhere. \\nA distinct rattle of metal impact forces me to jump out of bed. \\nI\'m a few seconds too late; the window screen\'s been pushed in.\\n\\nHe stood halfway in the shadows, knuckles bloody.\\n\\n"Wassup bitch?"\\n\\n"It\'s one in the morning," I\'m barely awake.\\n\\n"Dude, whatever, let\'s go."\\n\\nAnnoyed, I examine the damaged window dent.\\n\\n'
+p322
+sg7
+(lp323
+S'Adam1.3'
+p324
+aS'Sam6'
+p325
+aS'Lucretia4'
+p326
+asg12
+(lp327
+S'Swing a punch at Adam'
+p328
+aS'Let it go'
+p329
+aS'Grin and bear it'
+p330
+asbsS'Unsure'
+p331
+(i__main__
+StoryNode
+p332
+(dp333
+g5
+S"Something about the sky in the distance gave me the resolve to forget. \\n\\nJust erase everything, to silence all noise.\\n\\nIt seemed only then could I re-orient myself and let my instincts carry me home. \\n\\nStill, sometimes it's hard to breathe.\\n\\nI'm circling for air.\\n\\n"
+p334
+sg7
+(lp335
+S'UnsureEnd'
+p336
+asg12
+(lp337
+S'Continue'
+p338
+asbsS'Cherie4'
+p339
+(i__main__
+StoryNode
+p340
+(dp341
+g5
+S'I had been sitting on the curb by the school parking lot. Larry \\nand I just had a conversation about my attitude. "Anger \\nmanagement" he called it.\\n\\nI smelled the vanilla even before I saw her. I recognized her \\nfrom one of my classes.\\n\\nThen there was that smile.\\n\\nThe glare from the sun was hurting my eyes, but as soon as I \\nlooked into hers, I could see the sky again. \\n\\n'
+p342
+sg7
+(lp343
+S'Child1'
+p344
+aS'Cherie10'
+p345
+aS'Adam1'
+p346
+asg12
+(lp347
+S'Remember Larry'
+p348
+aS"Remember Cherie's smile"
+p349
+aS'Remember something else'
+p350
+asbsS'StoryTitle'
+p351
+(i__main__
+StoryNode
+p352
+(dp353
+g5
+S' Joh'
+p354
+sg7
+(lp355
+sg12
+(lp356
+sbsS'Adam1.5'
+p357
+(i__main__
+StoryNode
+p358
+(dp359
+g5
+S'I grab the closest kleenex box to wipe up the blood, and \\nsuddenly, it\'s Cherie. Crying.\\n\\nFor a moment I can breathe again.\\n\\nI remember this day. She\'d been at it for awhile.\\n\\n"I don\'t understand why you get like that,"\\n\\nShe looks so upset I take her hand. \\n\\n"Hmmm?"\\n\\nShe points out the red scars on my knuckles. The anger starts \\nto grow and swell inside me.\\n\\n"Honest to God," I mutter. "You\'re cheating on me aren\'t you."\\n\\n"What?!"\\n\\n"I saw you two together," I want to stop but I can\'t.\\nIt\'s not her fault there\'s so much anger inside of me,\\nbut I want her to feel the pain. I need her to.\\n\\n"I\'m not even going to -- " She takes a deep breath. "I feel \\nlike I don\'t even know you sometimes. Like you have all these \\ndifferent personalities and--"\\n\\nShe doesn\'t understand me afterall. Was Adam right? \\nThe thought of her betrayal breaks my heart.\\n\\n\\n'
+p360
+sg7
+(lp361
+S'Adam1.6'
+p362
+aS'Cherie5.1'
+p363
+asg12
+(lp364
+S'Focus on the anger'
+p365
+aS'Let it go'
+p366
+asbsS'Cherie6'
+p367
+(i__main__
+StoryNode
+p368
+(dp369
+g5
+S'\'\'Me:\'\' Hello\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\'\'Cherie:\'\' Hey. Can I call you?\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n'
+p370
+sg7
+(lp371
+S'Cherie7'
+p372
+aS'UnsureEnd'
+p373
+asg12
+(lp374
+S'Reply "I\'ll call you"'
+p375
+aS'No'
+p376
+asbsS'Cherie9'
+p377
+(i__main__
+StoryNode
+p378
+(dp379
+g5
+S'"Swing by Cherie\'s,"\\n"At this time of night? You\'re insane."\\n"I need to talk to her."\\n"Why? All the bitch ever does is complain."\\n\\n'
+p380
+sg7
+(lp381
+S'Cherie8'
+p382
+aS'Adam5'
+p383
+asg12
+(lp384
+S'Tell him to back off'
+p385
+aS'Ponder his words'
+p386
+asbsS'Cherie8'
+p387
+(i__main__
+StoryNode
+p388
+(dp389
+g5
+S'"You really shouldn\'t talk about her this way."\\n"She\'s just so--"\\n"Deal with it," I reach for my phone. "She\'s my girlfriend."\\n"What are you doing?"\\n"What do you think?"\\n"Pussy-whipped,"\\n"I don\'t give a fuck."\\n\\n'
+p390
+sg7
+(lp391
+S'Cherie7'
+p392
+aS'Child4'
+p393
+asg12
+(lp394
+S'Continue dialing'
+p395
+aS'Remember something else'
+p396
+asbsS'Lucretia7alt'
+p397
+(i__main__
+StoryNode
+p398
+(dp399
+g5
+S"I barely know this guy. I'm having enough trouble sorting between \\nLucretia and Cherie as it is. \\n\\n"
+p400
+sg7
+(lp401
+S'Lucretia1'
+p402
+aS'Cherie1'
+p403
+asg12
+(lp404
+S'Remember Lucretia'
+p405
+aS'Remember Cherie'
+p406
+asbsS'Cherie5'
+p407
+(i__main__
+StoryNode
+p408
+(dp409
+g5
+S'Towards the end, Cherie wasn\'t smiling much at all. It didn\'t \\nhelp that Adam didn\'t like her, Sam confessed his love for her, \\nand my thing with Lucretia wasn\'t figured out yet.\\n\\nIt was during this cluster she reached out to me, maybe for the \\nlast time.\\n\\n---\\n\\n \'\'Cherie:\'\'  Can\'t do this anymore. Need to talk.\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\t\\n\t\t\t\t\\n---\\n\\n'
+p410
+sg7
+(lp411
+S'Cherie6'
+p412
+aS'UnsureEnd'
+p413
+asg12
+(lp414
+S'Reply to Cherie'
+p415
+aS'Delete'
+p416
+asbsS'Adam1.6'
+p417
+(i__main__
+StoryNode
+p418
+(dp419
+g5
+S'There is blood everywhere, and it hurts. It really, really hurts.\\nI want to scream at the top of my lungs, so the world will never\\nforget this horrible pain.\\n\\n"It\'s too late! I know what I saw!"\\n"Saw what?!"\\n"You can\'t even save yourself,"\\n"I never said I was trying to change you,"\\nHer eyes are bloodshot. \\n"I thought you said you two had broken up,"\\n"Broken up? What do you mean? The time you\\ntried to break up with me? Or bowling?\\nWhat does this have to do with anything?"\\n\\nI snap my hand back.\\n\\n"John,"\\nBitch is pretending to be confused.\\n"I saw you with John."\\nA piece of hair falls into her eyes.\\n\\n'
+p420
+sg7
+(lp421
+S'Ending1'
+p422
+aS'UnsureEnd'
+p423
+asg12
+(lp424
+S'Brush it away.'
+p425
+aS'Look away.'
+p426
+asbsS'TheEnd5'
+p427
+(i__main__
+StoryNode
+p428
+(dp429
+g5
+S"Submerged under water once more, I lose all focus.\\n\\nI try to raise both hands but fail. I'm back where I started and \\nnone of this makes any sense. The sky seems ever so distant.\\n\\nI want to scream but I can't.\\nI want to feel angry but I'm tired.\\nI want to reach out but I don't see Cherie anymore.\\n\\nAll the reds, oranges, yellows, and blues mix together while it \\nall slowly fades away.\\n\\n END"
+p430
+sg7
+(lp431
+sg12
+(lp432
+sbsS'Adam1.4'
+p433
+(i__main__
+StoryNode
+p434
+(dp435
+g5
+S'He falls backward and hits his nose on the table. \\nThere\'s blood everywhere.\\n\\nYet, he didn\'t even flinch. \\n\\n"Didn\'t know you had that in you," Adam grins good-naturedly.\\nI\'m taken back to when we were kids, and he\'d protect me from\\nthe bullies. I wanted to be just like him.\\n\\n"You bleed, I bleed," he used to say. "We\'re bros! We gotta\\nlook out for each other." \\n\\n'
+p436
+sg7
+(lp437
+S'Adam1.5'
+p438
+aS'Sam4.1'
+p439
+asg12
+(lp440
+S'Help clean up'
+p441
+aS'Go to bed'
+p442
+asbsS'Adam1.3'
+p443
+(i__main__
+StoryNode
+p444
+(dp445
+g5
+S' ducks.\\n"You punch like a girl," he laughs.\\n"I\'m not going anywhere with you," I meet his gaze.\\n"Excuse me?" \\nAdam pushes me towards the door. \\n"You don\'t have a choice."\\n\\n'
+p446
+sg7
+(lp447
+S'Adam1.4'
+p448
+aS'Adam4'
+p449
+asg12
+(lp450
+S'Push him back'
+p451
+aS'Apologize'
+p452
+asbsS'Ending1'
+p453
+(i__main__
+StoryNode
+p454
+(dp455
+g5
+S"A wet strand of hair hinders my vision and I'm back in the water. \\nSharp pain pierces my lungs. How much longer do I have? \\n30 seconds? Less?\\n\\nI need to focus. A hand comes into view once more.\\n\\n*"
+p456
+sg7
+(lp457
+S'UnsureEnd'
+p458
+aS'AdamEnd'
+p459
+aS'SamEnd'
+p460
+aS'LucretiaEnd'
+p461
+aS'CherieEnd'
+p462
+asg12
+(lp463
+S'I still don\xe2\x80\x99t know what to do.'
+p464
+aS'Grab it.'
+p465
+aS'Take it.'
+p466
+aS'Lunge for it.'
+p467
+aS'Reach for it.'
+p468
+asbsS'TheEnd1'
+p469
+(i__main__
+StoryNode
+p470
+(dp471
+g5
+S'Suspicion fills my heart and I scream. Is she trying to kill me? \\nI don\xe2\x80\x99t trust her one bit. If she thinks she can get rid of me \\njust like that she\xe2\x80\x99s got another thing coming. If I\xe2\x80\x99m going down, \\nshe\xe2\x80\x99s coming with me. \\n\\nWith both hands, I grab her ugly yellow dress and pull her down. \\nAs her kicking becomes more frantic, a thought occurs to me. If \\nonly I had remembered to get my hair done today. I\xe2\x80\x99d hate to look \\nunkempt when the coast guards finally fish us out.\\n\\nMy throat burns but I say it anyway. \\n\\n\xe2\x80\x9cYou\xe2\x80\x99re the worst thing that\xe2\x80\x99s ever happened to John.\xe2\x80\x9d\\n\\nTerror turns into confusion. The kicking stops.\\n\\n\xe2\x80\x9cJohn?\xe2\x80\x9d I catch a reflection of him in her glassy eyes. \\n\\nShe\xe2\x80\x99s pathetic, still calling for him at a time like this. \\nTogether, we sink deeper until the world turns silent.\\n\\n END \\'
+p472
+sg7
+(lp473
+sg12
+(lp474
+sbsS'TheEnd2'
+p475
+(i__main__
+StoryNode
+p476
+(dp477
+g5
+S'Suddenly I can see the sky.\\n\\n\xe2\x80\x9cJohn, hang in there!\xe2\x80\x9d \\n\\nCherie pulls me towards her. It\xe2\x80\x99s amazing how such small hands \\ncan clutch so tightly. I squeeze her back. Her knuckles relax \\nonly after my entire body is over the deck.\\n\\n\xe2\x80\x9cHow much water did you swallow? Are you insane? Why do you \\nalways do this?\xe2\x80\x9d\\n\\nWater streams down her cheeks and I finally understand that you \\ncan\xe2\x80\x99t save someone who doesn\xe2\x80\x99t want to be saved. And I do, I \\nhonestly do. I want to be saved.\\n\\n\xe2\x80\x9cHey,\xe2\x80\x9d I hug her close. \xe2\x80\x9cI\xe2\x80\x99m sorry.\xe2\x80\x9d\\n"I just want you to get better that\'s all,"\\n"I know."\\n\\nFor once, I\'m not insecure. I can do this; I can move on. I don\xe2\x80\x99t \\nneed the others to help me escape the pain. \\n\\nSpread out on the deck, with Cherie in my arms, I focus on the \\nmost important thing - that I\xe2\x80\x99m happy to be alive.\\n\\n END'
+p478
+sg7
+(lp479
+sg12
+(lp480
+sbsS'SamEnd'
+p481
+(i__main__
+StoryNode
+p482
+(dp483
+g5
+S"\\n\\n\\n\\n\\n\\n\\n\\n\\n It's Sam.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"
+p484
+sg7
+(lp485
+S'TheEnd4'
+p486
+asg12
+(lp487
+S'Hold On'
+p488
+asbsS'Sam8'
+p489
+(i__main__
+StoryNode
+p490
+(dp491
+g5
+S'\\n\\n\t me: u there?\\n\\n html \\n a style="color:gray" Sent on Wednesday /a \\n /html \\n\\n\t me: u sure?\\n\t me: when did this happen?\\n\t me: does she know?\\n\t me: doe she feel the ame way?\\n\\n html \\n a style="color:gray" Sent on Wednesday /a \\n /html \\n\\n\\nMy phone is ringing. There\'s a sinking feeling in my stomach.\\n\\n'
+p492
+sg7
+(lp493
+S'Sam10'
+p494
+aS'Unsure'
+p495
+asg12
+(lp496
+S'Pick up'
+p497
+aS'Ignore it'
+p498
+asbsS'Cherie3'
+p499
+(i__main__
+StoryNode
+p500
+(dp501
+g5
+S'I miss her already. Her figure, her touch, her smell. I reach for \\nthe phone.\\n\\nNew Message\\n~~Compose New Message~~\\n\\nTo: Cherie\\n\\n\\n//luv u  3//\\n\\n\\nI remember the day I met her. It was a particularly good Tuesday.\\n\\n'
+p502
+sg7
+(lp503
+S'Cherie4'
+p504
+aS'Sam6.1'
+p505
+aS'Child3'
+p506
+asg12
+(lp507
+S'Remember the day'
+p508
+aS'Repress this memory'
+p509
+aS'Focus on something else'
+p510
+asbsS'TheEnd4'
+p511
+(i__main__
+StoryNode
+p512
+(dp513
+g5
+S'Even now, she\xe2\x80\x99s there for me. And I have done nothing for her. \\nShe\xe2\x80\x99s the best thing that\xe2\x80\x99s ever happened to me and all I do is \\ndrag her down. The guilt is overwhelming even though I try not to \\nfocus on it.\\n\\nI let out a sigh. What would Uncle Sam do? I remember the day I \\nmet her at the bowling alley.\\n\\n\xe2\x80\x9cJohn, stay with me!\xe2\x80\x9d She\xe2\x80\x99s reaching for my orange shirt.\\n\\nJohn? It breaks my heart that even at a time like this, she can\xe2\x80\x99t \\nforget him. I break away from her grasp and avoid her \\nhurtful stare.\\n\\n\xe2\x80\x9cBye Cher,\xe2\x80\x9d Is this what it means to let go? I welcome \\nthe darkness.\\n\\n END'
+p514
+sg7
+(lp515
+sg12
+(lp516
+sbsS'Sam6.1'
+p517
+(i__main__
+StoryNode
+p518
+(dp519
+g5
+S'It\'s too painful to remember the good times.\\n\\nLately, I can\'t seem to drag myself out of bed. The pressure is a \\ntangible push on my chest. I want to do more for her, to make her \\nsmile again somehow. Deep down, I know it\'s my fault she\'s \\nshutting me out.  \\n\\nCall it karma; maybe I shouldn\'t have been so quick to slam the \\ndoor in Adam\'s face. "See you tomorrow loser!" was the last thing \\nAdam said to me. I haven\'t heard from him in awhile.\\n\\nTurning over, I notice there\'s a message waiting for me on the \\ncomputer.\\n\\n'
+p520
+sg7
+(lp521
+S'Sam7'
+p522
+aS'Lucretia3'
+p523
+asg12
+(lp524
+S'Check it'
+p525
+aS'Go to sleep'
+p526
+asbsS'Sam2'
+p527
+(i__main__
+StoryNode
+p528
+(dp529
+g5
+S'What the hell. I threw my orange shirt on the bed, then turned to \\nthe computer. Accept!\\n\\nAlphaQ143 is idle, but it seems he messaged me while I was away.\\n\\n\t AlphaQ143: dood its sam\\n\t AlphaQ143: u there?\\n\\n\\n html \\n a style="color:gray" Sent on Sunday /a \\n /html \\n\\n\t AlphaQ143: nice2 meet u\\n\t AlphaQ143: friends bday tonite\\n\t AlphaQ143: ace bowling if u want to join\\n\\n html \\n a style="color:gray" Sent on Sunday /a \\n /html \\n\\n'
+p530
+sg7
+(lp531
+S'Sam3'
+p532
+aS'Cherie2'
+p533
+aS'Lucretia7alt'
+p534
+asg12
+(lp535
+S'Accept the invitation'
+p536
+aS'Think of something else'
+p537
+aS'Remove him from your buddylist'
+p538
+asbsS'Sam1'
+p539
+(i__main__
+StoryNode
+p540
+(dp541
+g5
+S'//"Knock, knock."//\\n//"Uh, who\'s there?"//\\n//"Orange."//\\n//"Hey, shut the fuck up over there!"//\\n//"Are you seriously telling --"//\\n//"I\'d like some oranges,"//\\n//"You don\'t deserve oranges,"//\\n//"Well you don\'t deserve to live!"//\\n//"Good one,"//\\n\\n//Someone laughs.//\\n\\n//"--knock knock jokes?"//\\n//"Orange you glad that I didn\'t kick your face in?"//\\n//"Catholic guilt at its best I suppose,"//\\n//"I need another shot..."//\\n//"Seriously, face palm,"//\\n\\nIt\'s the Fourth of July. I remember because it\'s the day I met \\nSam. "Uncle Sam\'s Birthday!" His nervous laughter was hard to \\nforget. \\n\\nHe wore an orange shirt with an orange slice on it, making him \\nthe joke of the party. I felt kind of bad for the guy; he left \\nthe party alone and no one could remember who had brought him \\nin the first place.\\n\\n'
+p542
+sg7
+(lp543
+S'Sam1.5'
+p544
+asg12
+(lp545
+S'Continue'
+p546
+asbsS'Cherie2'
+p547
+(i__main__
+StoryNode
+p548
+(dp549
+g5
+S'There are gold flecks in Cherie\'s eyes as her gaze meets mine. \\n\\n"You\'re going to be late if you don\'t leave soon," she smiles.\\n\\n"Well it wouldn\'t be your fault if I\'m late," my heart yearns \\nnever to leave her side.\\n\\n"Oh really,"\\n\\n"Really, really,"\\n\\n"Don\'t forget the cookies!" She grabs the ones she baked just for \\nRyan, even though he didn\'t invite her to his birthday. They had \\nblue sprinkles on them.\\n\\n"I won\'t, I\'m not that forgetful you know,"\\n\\nShe reaches up to kiss me.\\n\\n"Talk to you later."\\n\\nAs I pull away from the driveway, her figure slowly becomes a \\nmirage, lost beyond the platinum stretch of concrete against the \\nsky.\\n\\n'
+p550
+sg7
+(lp551
+S'Child2'
+p552
+aS'Child1'
+p553
+aS'Cherie3'
+p554
+asg12
+(lp555
+S'Remember the cookies'
+p556
+aS'Remember my childhood'
+p557
+aS'Remember her figure'
+p558
+asbsS'Sam7'
+p559
+(i__main__
+StoryNode
+p560
+(dp561
+g5
+S'My memories of Sam almost always involve a computer. I really \\ndo feel for the guy sometimes. The guy can bowl, but who \\nprefers chatting over face-to-face communication? Honest to \\nGod, this is probably why Adam hates him so much;\\nthey are polar opposites.\\n\\nI should have never prioritized him over Cherie.\\n\\n---\\n\\n     AlphaQ143 is idle.\\n\\n\t AlphaQ143: u there?\\n\\n html \\n a style="color:gray" Sent on Wednesday /a \\n /html \\n\\n\t AlphaQ143: fingers hurt\\n\t AlphaQ143: knuckles bleeding so i\'ll keep this \\n     short\\n\\n\\n html \\n a style="color:gray" Sent on Wednesday /a \\n /html \\n\\n\t AlphaQ143: u know cher\\n\t AlphaQ143: i feel reeally guiltyabout this\\n\t AlphaQ143: im inlove with her ithink\\n     AlphaQ143: have been for awhile\\n\\n html \\n a style="color:gray" Sent on Wednesday /a \\n /html \\n\\n'
+p562
+sg7
+(lp563
+S'Unsure'
+p564
+aS'Sam9'
+p565
+aS'Sam8'
+p566
+asg12
+(lp567
+S'Remove him from your buddylist'
+p568
+aS'Confront Sam'
+p569
+aS'Ask more questions'
+p570
+asbsS'Cherie7'
+p571
+(i__main__
+StoryNode
+p572
+(dp573
+g5
+S'She picks up on the first ring.\\n\\n"Hey,"\\n"We need to talk,"\\n"Wherever."\\n"Somewhere quiet,"\\n"The beach?"\\n"That\'s fine."\\n"You pick,"\\n"Why do I always have to pick?"\\n"Beach then,"\\n"Okay."\\n"Pick you up first?"\\n\\nShe hesitates. \\n\\n"Okay,"\\n"Okay."\\n"See you in a few minutes."\\n"Yeah."\\n\\nWe hang up.\\nI\'m not sure, but her voice sounds shaky, as if she\'s been \\ncrying.\\n\\nI realize that I care deeply about her, and I want it to work.\\n\\n'
+p574
+sg7
+(lp575
+S'Ending1'
+p576
+aS'Unsure'
+p577
+asg12
+(lp578
+S'Reach out to Cherie.'
+p579
+aS"It'll never work."
+p580
+asbsS'Sam5'
+p581
+(i__main__
+StoryNode
+p582
+(dp583
+g5
+S'"Let\'s stop by Sam\'s,"\\n"Fuck no,"\\n"Why do you hate him?"\\n"Cuz he\'s a fuckin whiner."\\n"He\'s fine,"\\n"Alright whatever, I\'ll drop you off."\\n\\nWe ride the rest of the way in silence.\\n\\n'
+p584
+sg7
+(lp585
+S'Sam7'
+p586
+aS'Lucretia9'
+p587
+asg12
+(lp588
+S'Think about Sam'
+p589
+aS'Roll down the window'
+p590
+asbsS'Sam4'
+p591
+(i__main__
+StoryNode
+p592
+(dp593
+g5
+S'Fighting back just makes people angrier. Sinking to their level \\nmeans I\'m just as guilty. It\'s not that I don\'t want to stand up \\nfor myself; I just really don\'t see the point in all the violence.\\n\\n"Betrayal tears families apart," I can hear Mom say. "You don\'t \\nwant to be the one always talking back, do you?"\\n\\nSeeking refuge in my covers, I start to drift.\\n\\n'
+p594
+sg7
+(lp595
+S'Sam10'
+p596
+aS'Lucretia3'
+p597
+asg12
+(lp598
+S'Delve deeper'
+p599
+aS'Focus on something else'
+p600
+asbsS'Lucretia8'
+p601
+(i__main__
+StoryNode
+p602
+(dp603
+g5
+S'---\\n\\n\\n\\n\'\'Unknown:\'\' Hello\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\'\'Unknown:\'\' Did you want to meet up?\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\'\'Unknown:\'\' It\'s Lucretia\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n---\\n\\n'
+p604
+sg7
+(lp605
+S'Lucretia12'
+p606
+aS'Lucretia7'
+p607
+asg12
+(lp608
+S'Yes'
+p609
+aS'No'
+p610
+asbsS'Lucretia9'
+p611
+(i__main__
+StoryNode
+p612
+(dp613
+g5
+S'I\'m supposed to meet Cherie in about 2 hours, but I need some air \\nfirst.\\n\\nThe minute I step outside, I see Lucretia on the curb. She\'s \\nwearing a summer dress with daisies down the side.\\n\\n"What? How?" I\'m speechless.\\n\\nShe smiles.\\n\\n"Go for a quick drive?"\\n\\n'
+p614
+sg7
+(lp615
+S'Lucretia10'
+p616
+aS'Lucretia11'
+p617
+asg12
+(lp618
+S'Yes'
+p619
+aS'No'
+p620
+asbsS'Sam3'
+p621
+(i__main__
+StoryNode
+p622
+(dp623
+g5
+S' \\n\\nI accept his invitation, reluctantly. This is probably going to \\nend badly. \\n\\nThe idea of bowling brings back a flood of memories. I do want to \\nget to know Sam better. There\'s something about him that reminds \\nme of myself. But bowling, at least for me, carries a ton of \\nbaggage. \\n\\nBlame it on Grandpa, who was the neighborhood bowling champion of \\nthe Monday night beer and pizza league.\\n\\n"He never missed a day with God," Mom used to say before sending \\nme off for my daily delivery to his house. "Honest to God, he \\ndidn\'t. Now off you go." \\n\\nHonest to God was a phrase Mom repeated often, during my childhood.\\n\\n'
+p624
+sg7
+(lp625
+S'Child4'
+p626
+aS'Adam1'
+p627
+aS'Sam12'
+p628
+asg12
+(lp629
+S'Focus on this memory'
+p630
+aS'Move on to something else'
+p631
+aS'Think about Sam'
+p632
+asbsS'Lucretia1'
+p633
+(i__main__
+StoryNode
+p634
+(dp635
+g5
+S'//Yellow diamonds in the light --//\\n\\nSchizophrenic lights drown out the click of dancing shoes.\\n\\n//I was standing side by side --//\\n\\nHer shadow crosses mine, and I\'m hypnotized. It\'s only a glimpse, \\nan impulse, and I no longer hear Rihanna\'s song. For a moment, \\nthe world is mute and my eyes focus on the space she left behind. \\n\\n"Follow me."\\n\\nA sweet whisper. I snap around, in time to catch the glitter \\nreflecting from her thighs. She flips her hair and moves \\nconfidently away, but with her hand extended behind her, towards \\nme, an open invitation. \\n\\nShe\'s killing me, with her seductive walk and perfect hair.\\n\\n\\nI close my eyes to try and sort out my feelings.\\n\\n\\n\\n'
+p636
+sg7
+(lp637
+S'Lucretia2'
+p638
+aS'Adam1.2'
+p639
+aS'Sam3.5'
+p640
+asg12
+(lp641
+S'Focus on the feeling'
+p642
+aS'Reject the feeling'
+p643
+aS'Repress the feeling'
+p644
+asbsS'Lucretia2'
+p645
+(i__main__
+StoryNode
+p646
+(dp647
+g5
+S'My pupils dilate once I open my eyes and I reach for her hand.\\nAs we dart through the crowds, I begin to feel dizzy.\\n\\n"What\'s your name?"\\n\\nI barely gasped out, short of breath, trying to keep up.\\n\\n"Lucretia."\\n\\nIt is a wonder she heard me. She\'s so different from Cherie, who \\nalways asks me to repeat myself.\\n\\n'
+p648
+sg7
+(lp649
+S'Lucretia3'
+p650
+aS'Cherie2'
+p651
+aS'Adam1'
+p652
+asg12
+(lp653
+S'Reach for her hand'
+p654
+aS'Think of Cherie'
+p655
+aS'Focus on another memory'
+p656
+asbsS'Lucretia3'
+p657
+(i__main__
+StoryNode
+p658
+(dp659
+g5
+S'The rest of the night is a blur. The last thing I remember was \\nchecking into a hotel:\\n\\n//On a dark desert highway, cool wind in my hair...\\nUp ahead in the distance I saw a shimmering light\\nMy head grew heavy and my sight grew dim//\\n\\n"Housekeeping!"\\n\\nI let out a moan.\\n\\n"Oh sorry! I come later." The door closed again.\\n\\nI look around. The pillows and sheets are wrinkled, suggesting \\nshe was here. As I search for a note, I see a blinking message \\nfrom my phone. It\'s from Cherie, but also an unknown number. Is \\nit Lucretia?\\n\\n\\n'
+p660
+sg7
+(lp661
+S'Cherie5'
+p662
+aS'Lucretia8'
+p663
+asg12
+(lp664
+S"Open Cherie's message"
+p665
+aS'Open Other message'
+p666
+asbsS'Cherie10.1'
+p667
+(i__main__
+StoryNode
+p668
+(dp669
+g5
+S'---\\n\\n \'\'Cherie:\'\'  Can\'t do this anymore. Need to talk.\\n~~ html \\n a style="color:gray" Sent: today /a \\n /html ~~\\n\\n\t\t\t\t\t\\n---\\n\\n\\n'
+p670
+sg7
+(lp671
+S'Cherie6'
+p672
+aS'Adam9'
+p673
+asg12
+(lp674
+S'Reply to Cherie'
+p675
+aS'Delete'
+p676
+asbsS'Sam9'
+p677
+(i__main__
+StoryNode
+p678
+(dp679
+g5
+S'\\n\\n\t me: what do you mean in love\\n\\n html \\n a style="color:gray" Sent on Wednesday /a \\n /html \\n\\n\t me: you met her what like 5 times?\\n     me: u better not be stalking her\\n\\nIs that why Cherie\'s been so upset? I should have known.\\n\\n html \\n a style="color:gray" Sent on Wednesday /a \\n /html \\n\t\\n\\nI knew I never should have brought her to bowling with me. \\n\\n\t\\n\t me: listen to me you freak.\\n\t me: leaver her the fuck alone.\\n\t me: i dont care if u feel bad or whatever. get \\nover it. \\n\\n\\nOr I\'ll come after you, I swear to God. \\n\\n'
+p680
+sg7
+(lp681
+S'Ending1'
+p682
+aS'Unsure'
+p683
+asg12
+(lp684
+S'Send the message with resolve.'
+p685
+aS'Delete everything and forget it all.'
+p686
+asbsS'Lucretia7'
+p687
+(i__main__
+StoryNode
+p688
+(dp689
+g5
+S'"You don\'t hold any power over me. Not anymore."\\nLucretia raises one eyebrow.\\n\\nThe bar is quiet.\\n\\n"I really wish I did my hair today." She twirls a strand.\\n"I\'m sorry,"\\n"Save it."\\n\\n//Yellow Submarine plays softly in the background.//\\n\\n"I really hate her."\\n"Cherie? It\'s not her fault."\\n"You\'ll be sorry,"\\n"Please stop screaming."\\n\\n\\n'
+p690
+sg7
+(lp691
+S'Ending1'
+p692
+aS'Unsure'
+p693
+asg12
+(lp694
+S'I laugh and she throws a glass of water in my face.'
+p695
+aS'I look away and she sips her glass quietly.'
+p696
+asbsS'Cherie5.1'
+p697
+(i__main__
+StoryNode
+p698
+(dp699
+g5
+S"Cherie and I didn't talk for weeks after this incident.\\nI hope she knows that I'm not angry anymore. \\nI just want to get better.\\nI just want a second chance.\\n\\n\\n"
+p700
+sg7
+(lp701
+S'Cherie7'
+p702
+aS'UnsureEnd'
+p703
+asg12
+(lp704
+S'Call her.'
+p705
+aS"It's too late."
+p706
+asbsS'TheEnd3'
+p707
+(i__main__
+StoryNode
+p708
+(dp709
+g5
+S"Honest to God, I don't know what I see in her. \\n\\nLooking around, the situation's not so bad. I definitely can go \\nthe rest of the way by myself. Although, it is kind of amusing \\nwatching her struggling to carry someone who\xe2\x80\x99s at least twice her \\nsize, thinking she can do it all and save everyone and everything. \\n\\n\xe2\x80\x9cHey Cherie, check this out,\xe2\x80\x9d I yank my hand away and push myself \\nbackwards. \xe2\x80\x9cSee Ma? No hands!\xe2\x80\x9d\\n\\n\xe2\x80\x9cJohn! No!\xe2\x80\x9d \\n\\nWhat the fuck. Suddenly I can\xe2\x80\x99t focus on anything else but \\nmy anger.\\n\\n\xe2\x80\x9cWhatever bitch! The name\xe2\x80\x99s Adam!\xe2\x80\x9d Geezus Christ, she still can\xe2\x80\x99t \\nget it right. I\xe2\x80\x99m still laughing as the red spots appear and the \\nwater invades every pore of my body.\\n\\n END"
+p710
+sg7
+(lp711
+sg12
+(lp712
+sbsS'Lucretia1alt'
+p713
+(i__main__
+StoryNode
+p714
+(dp715
+g5
+S" only other time I ever deleted a text from Cherie was by \\naccident. The combintation of keys I pressed got rid of the \\nmessage before I even saw it.\\n\\nWaiting for Ryan in front of the Lightning Club, it was a night \\nI'll never forget. \\n\\n"
+p716
+sg7
+(lp717
+S'Lucretia1'
+p718
+aS'Adam1.2'
+p719
+aS'Sam11'
+p720
+asg12
+(lp721
+S'Remember the night'
+p722
+aS'Focus on something else'
+p723
+aS'Repress the memory'
+p724
+asbsS'UnsureEnd'
+p725
+(i__main__
+StoryNode
+p726
+(dp727
+g5
+S"\\n\\n\\n\\n\\n\\n\\n\\n\\n It's hard to breathe.\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"
+p728
+sg7
+(lp729
+S'TheEnd5'
+p730
+asg12
+(lp731
+S'Hold On'
+p732
+asbsS'StoryAuthor'
+p733
+(i__main__
+StoryNode
+p734
+(dp735
+g5
+S'by Josephine Tsa'
+p736
+sg7
+(lp737
+sg12
+(lp738
+sbsS'Sam6'
+p739
+(i__main__
+StoryNode
+p740
+(dp741
+g5
+S'"Whatever," I roll my eyes. "I\'m going back to bed."\\n"C\'mon!"\\n"Good night!" \\nI shut the door in Adam\'s face and climb back to bed. \\n\\n"See you tomorrow loser!" is the last thing I hear before the front door slams closed.\\n\\nThere\'s a message waiting for me on the computer as I drift \\nto sleep.\\n\\n'
+p742
+sg7
+(lp743
+S'Sam7'
+p744
+aS'Lucretia3'
+p745
+asg12
+(lp746
+S'Check it'
+p747
+aS'Go to sleep'
+p748
+asbsg205
+t.

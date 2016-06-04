@@ -1,0 +1,107 @@
+(dp0
+S'move green up'
+p1
+I16
+sS'bridge'
+p2
+I2
+sS'move red right'
+p3
+I18
+sS'move yellow up'
+p4
+I20
+sS'stairs down'
+p5
+I25
+sS'down'
+p6
+I6
+sS'castle corner'
+p7
+I4
+sS'get weapon'
+p8
+I9
+sS'move blue right'
+p9
+I14
+sS'move green down'
+p10
+I15
+sS'ruined temple'
+p11
+I26
+sS'passage'
+p12
+I22
+sS'gatehouse'
+p13
+I8
+sS'east'
+p14
+I7
+sS'north'
+p15
+I21
+sS'hole into cliff'
+p16
+I10
+sS'along inner wall'
+p17
+I32
+sS'courtyard'
+p18
+I5
+sS'antechamber'
+p19
+I0
+sS'move yellow down'
+p20
+I19
+sS'tomb of the crowned queen'
+p21
+I27
+sS'blue bird tomb'
+p22
+I1
+sS'press'
+p23
+I23
+sS'tomb of the shield'
+p24
+I29
+sS'look'
+p25
+I12
+sS'move red left'
+p26
+I17
+sS'move blue left'
+p27
+I13
+sS'tomb of the hero'
+p28
+I28
+sS'standing archway'
+p29
+I34
+sS'light'
+p30
+I11
+sS'up'
+p31
+I31
+sS'climb the chain'
+p32
+I3
+sS'west'
+p33
+I33
+sS'south'
+p34
+I24
+sS'tomb of woman on horse'
+p35
+I30
+s.

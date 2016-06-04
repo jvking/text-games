@@ -25,7 +25,9 @@ To run the game, simply:
 ```
 python text-games/simulators/MySimulator.py --name savingjohn --doShuffle True
 ```
-Note that the _name_ could be "savingjohn", "machineofdeath", or "fantasyworld".
+Note that the _name_ could be "savingjohn", "machineofdeath", or "fantasyworld". After typing the above command, you will see the following (action order may differ):
+
+>('It\'s difficult to breathe.     My psychiatrist says that in order to be saved, one must want to be saved. "Are you alright?" Cherie calls from the deck. The waves don\'t give me a chance to respond. Instinctively,  my eyes turn upward as I\'m being pulled under. Please, not yet. "John!"  I want a second chance. It\'s Cherie\'s hand, reaching out, but for some reason it slips  away. My mind\'s going in circles and I need to focus on  something, anything. I grab on to the first thought that  seems coherent:', ["I don't deserve to live.", "It's not her fault.", "She can't save me.", "She's trying to kill me!"], 0)
 
 ### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

@@ -8,7 +8,8 @@ If you just want to have a sense with what text-based games look like, you can t
  - [Fantasy World](http://horizondark.com:8000/webclient/) (Thanks to Karthik for providing the reference.)
 
 #### Python simulators (under text-games/simulators/)
-This directory contains three text game simulators, including _Saving John_, _Machine of Death_ mentioned in [1] and _Fantasy World_ mentioned in [2].
+This directory contains three text game simulators, including **Saving John**, **Machine of Death** mentioned in [1] and **Fantasy World** mentioned in [2].
+Saving John
 
 #### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

@@ -40,6 +40,8 @@ mySimulator.Act(playerInput)                 # playerInput is an integer or a st
 mySimulator.Restart()                        # after the episode ends, restart the game
 ```
 
+For *Machine of Death*, we also provide a paraphrased action mode. You can import MachineOfDeathSimulator and initialize a second simulator with "doParaphrase = True".
+
 The _name_\_\*Id.pickle in text-games/simulators store the vocabulary of each game. _name_\_\*wordId.pickle means state-side vocabulary, and _name_\_\*actionId.pickle means action-side vocabulary.
 
 ### References

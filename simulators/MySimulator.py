@@ -2365,11 +2365,11 @@ if __name__ == "__main__":
     # parse arguments
     parser = argparse.ArgumentParser(description = "Text game simulators.")
     parser.add_argument("--name", type = str, help = "name of the text game, e.g. savingjohn, machineofdeath, fantasyworld", required = True)
-    parser.add_argument("--doShuffle", type = bool, help = "whether to shuffle presented actions", required = True)
+    parser.add_argument("--doShuffle", type = str, help = "whether to shuffle presented actions", required = True)
     args = parser.parse_args()
 
     startTime = time.time()
-    mySimulator, dict_wordId, dict_actionId, maxNumActions = GetSimulator(args.name, args.doShuffle)
+    mySimulator, dict_wordId, dict_actionId, maxNumActions = GetSimulator(args.name, args.doShuffle == "True")
     numEpisode = 0
     numStep = 0
     while numEpisode < 10:

@@ -34,9 +34,11 @@ You can continue the game by typing your choice of action (in integer number). F
 >('//"Knock, knock."//\\n//"Uh, who\'s there?"//\\n//"Orange."//\\n//"Hey, shut the fuck up over there!"//\\n//"Are you seriously telling --"//\\n//"I\'d like some oranges,"//\\n//"You don\'t deserve oranges,"//\\n//"Well you don\'t deserve to live!"//\\n//"Good one,"//\\n\\n//Someone laughs.//\\n\\n//"--knock knock jokes?"//\\n//"Orange you glad that I didn\'t kick your face in?"//\\n//"Catholic guilt at its best I suppose,"//\\n//"I need another shot..."//\\n//"Seriously, face palm,"//\\n\\nIt\'s the Fourth of July. I remember because it\'s the day I met \\nSam. "Uncle Sam\'s Birthday!" His nervous laughter was hard to \\nforget. \\n\\nHe wore an orange shirt with an orange slice on it, making him \\nthe joke of the party. I felt kind of bad for the guy; he left \\nthe party alone and no one could remember who had brought him \\nin the first place.\\n\\n', ['Continue'], 0)
 
 You can edit the main function in MySimulator.py to hook up with your own agent and RL framework. The interface of all three text games are designed so that they share the same interface:
+```
  - (text, actions, reward) = mySimulator.Read() # text is a string (state-text), actions is a list of strings, reward is a float
  - mySimulator.Act(playerInput) # playerInput is an integer or a string, depending on which game
  - mySimulator.Restart() # after the episode ends, restart the game
+```
 
 ### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

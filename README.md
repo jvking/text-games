@@ -10,7 +10,7 @@ If you just want to have a sense with what text-based games look like, you can t
 ### Python simulators (under text-games/simulators/, dependencies: Python 2.7)
 This directory contains three text game simulators, including **Saving John** and **Machine of Death** mentioned in [1], and **Fantasy World** mentioned in [2].
 
-**Saving John** and **Machine of Death** are converted from their original .html source codes. They are stand-alone simulators and should be easy to run from text-games/simulators/.
+**Saving John** and **Machine of Death** are converted from their original .html source codes. They are stand-alone simulators and should be easy to run from text-games/simulators/MySimulator.py
 
 **Fantasy World** requires installing the [Evennia package and text-world](https://github.com/mrkulk/text-world). The game is played in socket mode. If you are more familar with python, you don't have to install the Lua framework provided by [text-world-player](https://github.com/karthikncode/text-world-player). After you have installed both Evennia and text-world, the following steps should have been done to start the server and create the world:
  - On the server end, ./start.sh 1 # assuming we initiate only one game server

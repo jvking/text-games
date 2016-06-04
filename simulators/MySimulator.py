@@ -221,7 +221,7 @@ class SavingJohnSimulator:
 
 
 class MachineOfDeathSimulator:
-    def __init__(self, doShuffle):
+    def __init__(self, doShuffle, doParaphrase = False):
         self.title = "MachineOfDeath"
         self.Restart()
         self.methodDict = {}
@@ -428,6 +428,12 @@ class MachineOfDeathSimulator:
 
         self.doShuffle = doShuffle # whether actions are shuffled when they are Read()
         self.myHTMLParser = MyHTMLParser()
+        
+        self.doParaphrase = doParaphrase
+        if self.doParaphrase:
+            actions_orig = [self.myHTMLParser.MyHTMLFilter(line.rstrip()) for line in open(os.path.join(curDirectory, "machineofdeath_originalActions.txt"), "r")]
+            actions_para = [self.myHTMLParser.MyHTMLFilter(line.rstrip()) for line in open(os.path.join(curDirectory, "machineofdeath_paraphrasedActions.txt"), "r")]
+            self.dict_paraphrase = {action_orig: action_para for action_orig, action_para in zip(actions_orig, actions_para)}
 
     def Restart(self):
         self.current_tiddler = "Start"
@@ -446,6 +452,8 @@ class MachineOfDeathSimulator:
         if "THE END" in self.text: # the story ends
             self.idxShuffle = []
             self.actions = []
+        if self.doParaphrase:
+            self.actions = [self.dict_paraphrase[action] if action in self.dict_paraphrase else action for action in self.actions]
         return (self.text, [self.actions[i] for i in self.idxShuffle] if self.doShuffle else self.actions, AssignReward(self.text, "machineofdeath"))
 
     def Act(self, playerInput):

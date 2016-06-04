@@ -8,7 +8,7 @@ If you just want to have a sense with what text-based games look like, you can t
  - [Fantasy World](http://horizondark.com:8000/webclient/) (Thanks to Karthik for providing the reference.)
 
 #### Python simulators (under text-games/simulators/)
-This directory contains three text game simulators, including **Saving John**, **Machine of Death** mentioned in [1] and **Fantasy World** mentioned in [2].
+This directory contains three text game simulators, including **Saving John** and **Machine of Death** mentioned in [1], and **Fantasy World** mentioned in [2].
 Saving John
 
 #### References

@@ -9,7 +9,10 @@ If you just want to have a sense with what text-based games look like, you can t
 
 #### Python simulators (under text-games/simulators/)
 This directory contains three text game simulators, including **Saving John** and **Machine of Death** mentioned in [1], and **Fantasy World** mentioned in [2].
-Saving John
+
+##### Dependencies: Python 2.7
+
+**Saving John** and **Machine of Death** are converted from their original .html source codes
 
 #### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

@@ -12,7 +12,7 @@ This directory contains three text game simulators, including **Saving John** an
 
 **Saving John** and **Machine of Death** are converted from their original .html source codes. They are stand-alone simulators and should be easy to run from text-games/simulators/.
 
-**Fantasy World** requires installing the [Evennia package and text-world](https://github.com/mrkulk/text-world).
+**Fantasy World** requires installing the [Evennia package and text-world](https://github.com/mrkulk/text-world). The game is played in socket mode. If you are more familar with python, you don't have to use the Lua framework provided by [text-world-player](https://github.com/karthikncode/text-world-player).
 
 #### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

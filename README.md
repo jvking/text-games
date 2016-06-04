@@ -5,7 +5,7 @@ This repository contains text game simulators for research purposes.
 If you just want to have a sense with what text-based games look like, you can try the following .html based version:
  - [Saving John](http://interactivestoryspace.appspot.com/final2_sjohn_jtsay.html)
  - [Machine of Death](http://ifarchive.giga.or.at/if-archive/games/competition2013/web/machineofdeath/MachineOfDeath.html)
- - [Fantasy World](http://horizondark.com:8000/webclient/) Thanks to Karthik for providing the reference.
+ - [Fantasy World](http://horizondark.com:8000/webclient/) (Thanks to Karthik for providing the reference.)
 
 #### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

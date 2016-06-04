@@ -7,6 +7,9 @@ If you just want to have a sense with what text-based games look like, you can t
  - [Machine of Death](http://ifarchive.giga.or.at/if-archive/games/competition2013/web/machineofdeath/MachineOfDeath.html)
  - [Fantasy World](http://horizondark.com:8000/webclient/) (Thanks to Karthik for providing the reference.)
 
+#### Python simulators (under text-games/simulators/)
+This directory contains three text game simulators, including two mentioned in [1] and the Fantasy World mentioned in [2].
+
 #### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.
 2. Karthik Narasimhan, Tejas Kulkarni, Regina Barzilay. [_Language Understanding for Text-based Games Using Deep Reinforcement Learning._](http://aclweb.org/anthology/D/D15/D15-1001.pdf) Conference on Empirical Methods in Natural Language Processing (EMNLP). 2015.

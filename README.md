@@ -1,5 +1,5 @@
 # Text-games
-This repository contains text game simulators for research purposes.
+This repository provides text game simulators for research purposes.
 
 ### User-friendly version
 If you just want to have a sense with what text-based games look like, you can try the following .html based version:
@@ -12,12 +12,20 @@ This directory contains three text game simulators, including **Saving John** an
 
 **Saving John** and **Machine of Death** are converted from their original .html source codes. They are stand-alone simulators and should be easy to run from text-games/simulators/.
 
-**Fantasy World** requires installing the [Evennia package and text-world](https://github.com/mrkulk/text-world). The game is played in socket mode. If you are more familar with python, you don't have to install the Lua framework provided by [text-world-player](https://github.com/karthikncode/text-world-player).
+**Fantasy World** requires installing the [Evennia package and text-world](https://github.com/mrkulk/text-world). The game is played in socket mode. If you are more familar with python, you don't have to install the Lua framework provided by [text-world-player](https://github.com/karthikncode/text-world-player). After you have installed both Evennia and text-world, the following steps should have been done to start the server and create the world:
+ - On the server end, ./start.sh 1 # assuming we initiate only one game server
+ - create superuser with username "root" and password "root"
+ - On the client end, nc localhost 4001
+ - connect root root
+ - @batchcommand tutorial_world.build
+ - @quell
+ - quit the client connection
 
-To run the game, simply
+To run the game, simply:
 ```
-python MySimulator.py --name savingjohn --doShuffle True
+python text-games/simulators/MySimulator.py --name savingjohn --doShuffle True
 ```
+Note that the _name_ could be "savingjohn", "machineofdeath", or "fantasyworld".
 
 ### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

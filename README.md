@@ -40,7 +40,7 @@ mySimulator.Act(playerInput)                 # playerInput is an integer or a st
 mySimulator.Restart()                        # after the episode ends, restart the game
 ```
 
-The _name__*Id.pickle in text-games/simulators store the vocabulary of each game. _name__*wordId.pickle means 
+The _name_\_\*Id.pickle in text-games/simulators store the vocabulary of each game. _name_\_\*wordId.pickle means 
 
 ### References
 1. Ji He, Jianshu Chen, Xiaodong He, Jianfeng Gao, Lihong Li, Li Deng and Mari Ostendorf. [_Deep Reinforcement Learning with a Natural Language Action Space._](http://arxiv.org/abs/1511.04636) Association for Computational Linguistics (ACL). 2016.

@@ -3,7 +3,7 @@ This repository provides text game simulators for research purposes.
 
 ### User-friendly version
 If you just want to have a sense with what text-based games look like, you can try the following .html based version:
- - [Saving John](http://interactivestoryspace.appspot.com/final2_sjohn_jtsay.html)
+ - [Saving John](http://www.ifarchive.org/if-archive/games/competition2013/web/savingjohn/Saving%20John.html)
  - [Machine of Death](http://ifarchive.giga.or.at/if-archive/games/competition2013/web/machineofdeath/MachineOfDeath.html)
  - [Fantasy World](http://horizondark.com:8000/webclient/) (Thanks to Karthik for providing the reference.)
 

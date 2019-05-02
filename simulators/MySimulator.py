@@ -5,10 +5,10 @@
 
 import argparse
 from collections import defaultdict
-import HTMLParser
 import numpy as np
 import operator
 import os
+from html.parser import HTMLParser
 #import pdb; pdb.set_trace()
 try:
     import cPickle as pickle
@@ -22,9 +22,9 @@ import time
 
 curDirectory = os.path.dirname(os.path.abspath(__file__))
 
-class MyHTMLParser(HTMLParser.HTMLParser):
+class MyHTMLParser(HTMLParser):
     def __init__(self):
-        HTMLParser.HTMLParser.__init__(self)
+        super().__init__()
         self.data = []
 
     def handle_data(self, data):
@@ -120,7 +120,7 @@ class FantasyWorldSimulator:
         self.sock.sendall("begin adventure")
         self.Restart()
 
-        with open(file_actionId, "r") as infile:
+        with open(file_actionId, "rb") as infile:
             self.list_actions = list(pickle.load(infile))
 
     def Restart(self):
@@ -164,8 +164,8 @@ class SavingJohnSimulator:
         self.title = "SavingJohn"
         self.storyPlot = {}
         self.startTiddler = ""
-        with open(storyFile, "r") as infile:
-            self.storyPlot, self.startTiddler = pickle.load(infile)
+        with open(storyFile, "rb") as infile:
+            self.storyPlot, self.startTiddler = pickle.load(infile, encoding='latin1')
 
         self.doShuffle = doShuffle # whether actions are shuffled when they are Read()
         self.idxShuffle = []
@@ -181,7 +181,7 @@ class SavingJohnSimulator:
     def Read(self):
         if self.storyNode.text.startswith("A wet strand of hair hinders my vision and I'm back in the water."):
             if self.doShuffle:
-                self.idxShuffle = range(2)
+                self.idxShuffle = list(range(2))
                 random.shuffle(self.idxShuffle)
             idxTemp = 0
             if self.params_path == "Adam": idxTemp = 1
@@ -193,7 +193,7 @@ class SavingJohnSimulator:
             return (self.storyNode.text, [actionsTemp[i] for i in self.idxShuffle] if self.doShuffle else actionsTemp, AssignReward(self.storyNode.text, "savingjohn"))
 
         if self.doShuffle:
-            self.idxShuffle = range(len(self.storyNode.actions))
+            self.idxShuffle = list(range(len(self.storyNode.actions)))
             random.shuffle(self.idxShuffle)
         return (self.storyNode.text, [self.storyNode.actions[i] for i in self.idxShuffle] if self.doShuffle else self.storyNode.actions, AssignReward(self.storyNode.text, "savingjohn"))
 
@@ -201,7 +201,7 @@ class SavingJohnSimulator:
         # if shuffled actions, find actual action index
         playerInput = self.idxShuffle[playerInput] if self.doShuffle else playerInput
 
-        if self.storyNode.text.startswith("A wet strand of hair hinders my vision and I'm back in the water.") and playerInput <> 0:
+        if self.storyNode.text.startswith("A wet strand of hair hinders my vision and I'm back in the water.") and playerInput != 0:
             if self.params_path == "Adam": playerInput = 1
             elif self.params_path == "Sam": playerInput = 2
             elif self.params_path == "Lucretia": playerInput = 3
@@ -431,8 +431,8 @@ class MachineOfDeathSimulator:
         
         self.doParaphrase = doParaphrase
         if self.doParaphrase:
-            actions_orig = [self.myHTMLParser.MyHTMLFilter(line.rstrip()) for line in open(os.path.join(curDirectory, "machineofdeath_originalActions.txt"), "r")]
-            actions_para = [self.myHTMLParser.MyHTMLFilter(line.rstrip()) for line in open(os.path.join(curDirectory, "machineofdeath_paraphrasedActions.txt"), "r")]
+            actions_orig = [self.myHTMLParser.MyHTMLFilter(line.rstrip()) for line in open(os.path.join(curDirectory, "machineofdeath_originalActions.txt"), "rb")]
+            actions_para = [self.myHTMLParser.MyHTMLFilter(line.rstrip()) for line in open(os.path.join(curDirectory, "machineofdeath_paraphrasedActions.txt"), "rb")]
             self.dict_paraphrase = {action_orig: action_para for action_orig, action_para in zip(actions_orig, actions_para)}
 
     def Restart(self):
@@ -447,7 +447,7 @@ class MachineOfDeathSimulator:
         self.text = re.sub("\\n", " ", self.myHTMLParser.MyHTMLFilter(self.text))
         self.actions = [re.sub("\\n", " ", self.myHTMLParser.MyHTMLFilter(action)) for action in self.actions]
         if self.doShuffle:
-            self.idxShuffle = range(len(self.actions))
+            self.idxShuffle = list(range(len(self.actions)))
             random.shuffle(self.idxShuffle)
         if "THE END" in self.text: # the story ends
             self.idxShuffle = []
@@ -530,9 +530,9 @@ class MachineOfDeathSimulator:
             self.params['lookingUp'] = 0
             self.params['jovi'] = 0
         if self.params['firstDeathGiven'] == 1:
-            if self.params['oldAge'] <> 0 and self.params['lookingUp'] <> 0 and self.params['jovi'] == 0:
+            if self.params['oldAge'] != 0 and self.params['lookingUp'] != 0 and self.params['jovi'] == 0:
                 self.methodDict['SHOT THROUGH THE HEART BY BON JOVI']()
-            if self.params['oldAge'] <> 0 and self.params['lookingUp'] == 0:
+            if self.params['oldAge'] != 0 and self.params['lookingUp'] == 0:
                 self.methodDict['LOOKING UP']()
             if self.params['oldAge'] == 0:
                 self.methodDict['OLD AGE']()
@@ -743,7 +743,7 @@ class MachineOfDeathSimulator:
         self.params['busRandom'] = int(np.floor(np.random.random() * 49 + 1))
         if self.params['busRandom'] == 25:
             self.methodDict["Holy crap, I can't believe that worked"]()
-        if self.params['busRandom'] <> 25:
+        if self.params['busRandom'] != 25:
             self.methodDict['Not this time']()
         self.text += """"""
         self.current_links += []
@@ -840,7 +840,7 @@ class MachineOfDeathSimulator:
         if self.params['winRandom'] == 5:
             self.params['win'] = 1
             self.text += """You manoeuvre the crane over the tiny dino, lower and clasp the jaws around it, and lift it back up... and have it safely dropped down the chute! Score!\n"""
-        if self.params['winRandom'] <> 5 and self.params['win'] == 0:
+        if self.params['winRandom'] != 5 and self.params['win'] == 0:
             self.text += """You manoeuvre the crane over the tiny dino, lower and clasp the jaws around it, and lift it back up... only for it to fall from the crane’s frustratingly weak grasp. Curses! Foiled again, like yesterday’s ham!\n"""
         self.params['coins'] = self.params['coins'] - 1
         if self.params['coins'] == 0 and self.params['win'] == 0:
@@ -929,7 +929,7 @@ class MachineOfDeathSimulator:
         if self.params['waitForRach'] == 3:
             self.text += """&lt;html&gt;&lt;/p&gt;&lt;/html&gt; Both you and Bon Jovi become distracted by Rachel bounding down the stairs with her usual energy.\n"""
         self.params['saidExcused'] = 1
-        if self.params['waitForReach'] <> 3:
+        if self.params['waitForReach'] != 3:
             if self.params['saidCrazy'] == 0:
                 self.current_links += ['Crazy']
                 self.actions += ['&quot;I must be going crazy.&quot;']
@@ -1093,7 +1093,7 @@ class MachineOfDeathSimulator:
     def tiddler76(self):
         if self.params['inBedroom'] == 1 and self.params['seePoison'] == 1:
             self.params['returnVar'] = 1
-        if self.params['manWait'] < 4 and self.params['returnVar'] <> 1:
+        if self.params['manWait'] < 4 and self.params['returnVar'] != 1:
             if self.params['lookedKitchen'] == 0:
                 self.text += """You look around the room you're in and find it to be a small, modest kitchen."""
             if self.params['lookedKitchen'] == 1:
@@ -1430,7 +1430,7 @@ class MachineOfDeathSimulator:
         if self.params['waitForRach'] == 3:
             self.text += """&lt;html&gt;&lt;/p&gt;&lt;/html&gt;Both you and Bon Jovi become distracted by Rachel bounding down the stairs with her usual energy."""
         self.params['saidGun'] = 1
-        if self.params['waitForReach'] <> 3:
+        if self.params['waitForReach'] != 3:
             if self.params['saidCrazy'] == 0:
                 self.current_links += ['Crazy']
                 self.actions += ['&quot;I must be going crazy.&quot;']
@@ -1627,8 +1627,8 @@ class MachineOfDeathSimulator:
         if self.params['poisoned'] == 1:
             self.params['poisonCount'] = self.params['poisonCount'] + 1
         self.params['waitingForHelp'] = self.params['waitingForHelp'] + 1
-        if self.params['waitingForHelp'] <> 5:
-            if self.params['poisonCount'] <> 4:
+        if self.params['waitingForHelp'] != 5:
+            if self.params['poisonCount'] != 4:
                 self.current_links += ['Killing time', 'Drink up']
                 self.actions += ['Wait.', 'Drink tea.']
                 if self.params['askLooking'] == 0:
@@ -1751,7 +1751,7 @@ class MachineOfDeathSimulator:
         if self.params['waitForRach'] == 3:
             self.text += """&lt;html&gt;&lt;/p&gt;&lt;/html&gt;Before you have time to finish this enlightening conversation, Rachel bounds down the stairs with her usual energy. """
         self.params['saidCrazy'] = 1
-        if self.params['waitForReach'] <> 3:
+        if self.params['waitForReach'] != 3:
             self.current_links += ['Still crazy']
             self.actions += ['&quot;How do you know that?&quot;']
             if self.params['saidGun'] == 0:
@@ -1808,7 +1808,7 @@ class MachineOfDeathSimulator:
         self.text += """&quot;I went crazy once,&quot; he admits with a hint of shame. &quot;I believed I was a Pomeranian.&quot;"""
         if self.params['waitForRach'] == 3:
             self.text += """&lt;html&gt;&lt;/p&gt;&lt;/html&gt;Before you have time to finish this enlightening conversation, Rachel bounds down the stairs with her usual energy.\n"""
-        if self.params['waitForReach'] <> 3:
+        if self.params['waitForReach'] != 3:
             self.current_links += ['The hard truth']
             self.actions += ['&quot;But you are a Pomeranian!&quot;']
             if self.params['saidGun'] == 0:
@@ -2005,7 +2005,7 @@ class MachineOfDeathSimulator:
         if self.params['waitForRach'] == 3:
             self.text += """&lt;html&gt;&lt;/p&gt;&lt;/html&gt;Both you and Bon Jovi become distracted by Rachel bounding down the stairs with her usual energy."""
         self.params['saidSing'] = 1
-        if self.params['waitForReach'] <> 3:
+        if self.params['waitForReach'] != 3:
             if self.params['saidCrazy'] == 0:
                 self.current_links += ['Crazy']
                 self.actions += ['&quot;I must be going crazy.&quot;']
@@ -2351,21 +2351,21 @@ class MachineOfDeathSimulator:
 def GetSimulator(storyName, doShuffle):
     # this method returns simulator, state/action vocabularies, and the maximum number of actions
     if storyName.lower() == "fantasyworld":
-        with open(os.path.join(curDirectory, "fantasyworld_wordId.pickle"), "r") as infile:
+        with open(os.path.join(curDirectory, "fantasyworld_wordId.pickle"), "rb") as infile:
             dict_wordId = pickle.load(infile)
-        with open(os.path.join(curDirectory, "fantasyworld_actionId.pickle"), "r") as infile:
+        with open(os.path.join(curDirectory, "fantasyworld_actionId.pickle"), "rb") as infile:
             dict_actionId = pickle.load(infile)
         return FantasyWorldSimulator(os.path.join(curDirectory, "fantasyworld_actionId.pickle")), dict_wordId, dict_actionId, 222 # 35
     if storyName.lower() == "savingjohn":
-        with open(os.path.join(curDirectory, "savingjohn_wordId.pickle"), "r") as infile:
+        with open(os.path.join(curDirectory, "savingjohn_wordId.pickle"), "rb") as infile:
             dict_wordId = pickle.load(infile)
-        with open(os.path.join(curDirectory, "savingjohn_actionId.pickle"), "r") as infile:
+        with open(os.path.join(curDirectory, "savingjohn_actionId.pickle"), "rb") as infile:
             dict_actionId = pickle.load(infile)
         return SavingJohnSimulator(doShuffle, os.path.join(curDirectory, "savingjohn.pickle")), dict_wordId, dict_actionId, 4
     if storyName.lower() == "machineofdeath":
-        with open(os.path.join(curDirectory, "machineofdeath_wordId.pickle"), "r") as infile:
+        with open(os.path.join(curDirectory, "machineofdeath_wordId.pickle"), "rb") as infile:
             dict_wordId = pickle.load(infile)
-        with open(os.path.join(curDirectory, "machineofdeath_actionId.pickle"), "r") as infile:
+        with open(os.path.join(curDirectory, "machineofdeath_actionId.pickle"), "rb") as infile:
             dict_actionId = pickle.load(infile)
         return MachineOfDeathSimulator(doShuffle), dict_wordId, dict_actionId, 9
 
@@ -2390,7 +2390,7 @@ if __name__ == "__main__":
             numStep = 0
         else:
             terminal = False
-            playerInput = input()
+            playerInput = int(input())
             # playerInput = random.randint(0, len(actions) - 1)
             print(actions[playerInput])
             if mySimulator.title == "FantasyWorld":
